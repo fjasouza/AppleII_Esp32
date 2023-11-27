@@ -2,8 +2,9 @@
 ![][1]
 
 [1]: Imagens/AppleII_ESP32_Compara.jpg
-
+***
 **Apple II**
+***
 
 <p>É realmente incrivel o quanto o setor de embarcados evoluiu (e evolui), eu que entrei nessa area na época do surgimento do Apple II, que tive que aprender a programar o 6502 na unha e programava Z80 digitando o hex do código de maquina em um programador de eprom (somente quem é dessa época sabe do que to falando) acho impressionante como hoje podemos emular um 6502 e toda a engine de video de um Apple II dentro de um microcontrolador ESP32. Cheguei a duvidar quando, na época, me falaram que era possivel colocar todo o hardware de um Apple II dentro de um unico chip. (ainda não conhecia os FPGA´s na época)</p>
 <p>Pois bem, eu, como amante nostalgico de Apple II e como programador, achei que seria interessante descobrir se já daria pra fazer isso em um ESP32. E acredito que tive sucesso nisso.</p>
@@ -28,6 +29,7 @@
 
 [2]: Imagens/TelaInicial.png
 
+***
 <p>Alguns video funcionando:</p>
 
  * [DOS 3.3 (Youtube)](https://www.youtube.com/watch?v=gkJJiDuz0lA)
@@ -54,7 +56,9 @@
 
 <p>Os arquivos CPU.INO e DISK.INO reaproveitei de projetos de outros autores e adaptei para o ESP32, assim que identifica-los colocarei aqui os devidos créditos.</p>
 
+***
 **ESP32**
+***
 
 <p>Vamos falar um pouco do poderoso ESP32, lançado em 2016 sendo um sucessor do famoso ESP8266, é um microcontrolador com dois 'cores' que pode rodar a incriveis 240Mhz (incriveis mesmo, comparado com o 1Mhz do saudoso 6502), usei um core para emular o 6502 e o outro core para emular a parte de video e tratamento de teclado.</p>
 
