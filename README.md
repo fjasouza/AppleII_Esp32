@@ -92,9 +92,11 @@
 
 <p>Espero que esse Readme já seja suficiente para quem tenha um certo conhecimento ou desperte a curiosidade em muitos sobre programação do ESP32, sei que este é apenas 'mais um emulador' de Apple II e que, para windows, temos varios e de ótima qualidade e facilidade de uso, meu intuito foi mais estimular a prática e o conhecimento, espero que tenham gostado. boa sorte para todos.</p>
 
+***
 **Colaboração**
 
 <p>Sou desenvolvedor autonomo então dependo dos meus trabalhos para tocar a vida (e as contas).</p>
 <p>Se alguém achar que mereço uma cerveja (ou um cafezinho), meu pix e meu paypal é o email: fj_souza@hotmail.com</p>
 <p>Se não achar ou não puder também não tem problema, usufrua e distribua conhecimentos.</p>
 
+***
