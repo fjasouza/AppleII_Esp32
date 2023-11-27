@@ -24,6 +24,10 @@
 (Nem sei se ainda existem direitos autorais sobre os jogos que deixei como exemplo mas como não estou vendendo nada e existem inumeros sites em que é possivel baixar essa ROMS, acredito que não tenha maior problema)</p>
 <p>Para testa-las, basta retirar o comentário '//' ao lado dos #define do nome do jogo, no arquivo Esp32AppleII.ino (não esquecendo de deixar apenas um arquivo disponivel por compilação)  </p>
 
+![][2]
+
+[2]: Imagens/TelaInicial.png
+
 <p>Alguns video funcionando:</p>
 
  * [DOS 3.3 (Youtube)](https://www.youtube.com/watch?v=gkJJiDuz0lA)
@@ -37,9 +41,9 @@
 
 <p>Digamos então, por exemplo, que queremos converter o jogo Galaxian, cujo arquivo de disco eu baixei com o nome Galaxian(1980)(Starcraft).dsk</p>
 
-![][2]
+![][3]
 
-[2]: Imagens/ConverteDsktoArrayC.png
+[3]: Imagens/ConverteDsktoArrayC.png
 
 <p>Depois bastaria clicar no botão 'save as file', nomear com extensão .h, adicionar ao projetos (como nos exemplos adicionados) e colocar o tamanho do array no código, como exemplificado abaixo:</p>
 
@@ -58,13 +62,13 @@
 
 <p>Usei nesse projeto um kit facilmente encontrado no mercado (com muita variação no preço) que já vem com o ESP32 e conexão para entrada de teclado e mouse PS2, conector para saida de som, conector para SD Card, conector para saida VGA e conector USB (para programação e debug serial, entre outros) (vide imagem abaixo)</p>
 
-![][3]
-
-[3]: Imagens/Esp32_Front.jpeg
-
 ![][4]
 
-[4]: Imagens/Esp32_Back.jpeg
+[4]: Imagens/Esp32_Front.jpeg
+
+![][5]
+
+[5]: Imagens/Esp32_Back.jpeg
  
 <p>Para a parte gráfica, usei a ótima biblioteca open-source FabGL(http://www.fabglib.org) para ESP32.</p>
 
@@ -74,13 +78,13 @@
 
 <p>Obs: Não vou me estender aqui como programar o ESP32 porque já existe muita informação na internet sobre como fazer isso.</p>
 
-![][5]
-
-[5]: Imagens/ConfigEsp32.png
-
 ![][6]
 
-[6]: Imagens/ConfigEsp32_2.png
+[6]: Imagens/ConfigEsp32.png
+
+![][7]
+
+[7]: Imagens/ConfigEsp32_2.png
 
 <p>Espero que esse Readme já seja suficiente para quem tenha um certo conhecimento ou desperte a curiosidade em muitos sobre programação do ESP32, sei que este é apenas 'mais um emulador' de Apple II e que, para windows, temos varios e de ótima qualidade e facilidade de uso, meu intuito foi mais estimular a prática e o conhecimento, espero que tenham gostado. boa sorte para todos.</p>
 
